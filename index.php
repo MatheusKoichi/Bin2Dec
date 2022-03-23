@@ -7,7 +7,8 @@ echo $html;
 
 $convert = bindec($binaryId);
 
-echo "<input id='binaryId'value='$convert'/>";
+echo "<input id='decimalResult'value='Resultado: $convert' readonly='readonly' placeholder='resultado' width='300px'\>";
+
 
 
 
